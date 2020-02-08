@@ -1,10 +1,20 @@
-var age = 5;
+for (i = 0; i < 10; i++) {
 
-while (age < 10) {
+if(i === 5 || i === 3){
 
-    console.log("Your age is less than 10");
-    age++;
+continue;
 
 }
 
-document.write ("you are now over 10");
+console.log(i);
+
+if(i === 7){
+
+    break;
+}
+
+
+}
+
+console.log("I have broken out of the loop");
+
